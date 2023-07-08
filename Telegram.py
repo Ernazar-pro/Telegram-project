@@ -24,13 +24,13 @@ async def help(message):
 @disp.message_handler(commands=['baza'])
 async def baza(message):
     name=message['from']['first_name']
-    await message.answer('Python pro  topari oqiwshisi:\nATI:ERNAZAR\n\nFAMILIYASI:JUMANIYAZOV\n\nKLASS:6')
-    await message.answer('Python pro  topari oqiwshisi:\nATI:BEGIS\n\nFAMILIYASI:EMBERGENOV\n\nKLASS:9')
-    await message.answer('Python pro  topari oqiwshisi:\nATI:YUSUP\n\nFAMILIYASI:SALIMOV\n\nKLASS:7')
-    await message.answer('Python pro  topari oqiwshisi:\nATI:NURLAN\n\nFAMILIYASI:SARSENBAEV\n\nKLASS:8')
-    await message.answer('Python pro  topari oqiwshisi:\nATI:ERLAN\n\nFAMILIYASI:SARSENBAEV\n\nKLASS:8')
-    await message.answer('Python pro  topari oqiwshisi:\nATI:AZIZ\n\nFAMILIYASI:DAWLETBAEV\n\nKLASS:9')
-    await message.answer('Python pro topari oqiwshisi:\nATI:ALISHER\n\nFAMILIYASI:RUSTAMOV\n\nKLASS:6')
+    await message.answer('Ученик группы Python_pro:\nИмя:ERNAZAR\n\nФамилия:JUMANIYAZOV\n\nКласс:6')
+    await message.answer('Ученик группы Python_pro:\nИмя:BEGIS\n\nФамилия:EMBERGENOV\n\nKласс:9')
+    await message.answer('Ученик группы Python_pro:\nИмя:YUSUP\n\nФамилия:SALIMOV\n\nКласс:7')
+    await message.answer('Ученик группы Python_pro:\nИмя:NURLAN\n\nФамилия:SARSENBAEV\n\nКласс:8')
+    await message.answer('Ученик группы Python_pro:\nИмя:ERLAN\n\nФамилия:SARSENBAEV\n\nКласс:8')
+    await message.answer('Ученик группы Python_pro:\nИмя:AZIZ\n\nФамилия:DAWLETBAEV\n\nКласс:9')
+    await message.answer('Ученик группы Python_pro:\nИмя:ALISHER\n\nФамилия:RUSTAMOV\n\nКласс:6')
 
 if __name__ == '__main__':
     executor.start_polling(disp,skip_updates=True)
